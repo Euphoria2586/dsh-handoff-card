@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-handoff-card",
+  "name": "DSH Handoff Card",
+  "tagline": "Leave a good next step.",
+  "taglineZh": "给下一位自己或 Agent，留张接得住的交接卡。",
+  "category": "DSH native plugin",
+  "port": 4188,
+  "accent": "#257260",
+  "hook": "A pocket checkpoint for your next self or next agent.",
+  "description": "A native DSH command and model tool for explicit per-session handoff notes, with an offline card studio and reviewable export formats.",
+  "features": [
+    "Native /handoff command",
+    "Native handoff_update model tool",
+    "Explicit goal, progress, next steps, blockers and links",
+    "Per-session state isolation",
+    "Generated Cordis absolute-path patch",
+    "Offline studio with JSON, Markdown, SVG and command output",
+    "Chinese/English UI and reports; switching preserves current state",
+    "Five-checkpoint session history shared by commands and tools",
+    "/handoff history and undo; clear removes all revisions"
+  ],
+  "limitations": [
+    "Notes are supplied claims, not verified progress",
+    "No automatic transcript summarization",
+    "Checkpoint memory is lost on restart or plugin reload",
+    "DSH may persist command results and tool arguments in its own history",
+    "Web studio is not connected to a live DSH session",
+    "Targeted at DSH 0.2.1-rc.2"
+  ],
+  "sources": [
+    {
+      "title": "DeepSeek Harness native extension cookbook",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/687f282e8625c6b8d11ff58211a90524be2e4317/docs/cookbook/extension-cookbook.md",
+      "date": "Source checked 2026-10-22"
+    },
+    {
+      "title": "DeepSeek Harness command registry",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/687f282e8625c6b8d11ff58211a90524be2e4317/packages/interaction/commands/src/index.ts",
+      "date": "Source checked 2026-10-22"
+    },
+    {
+      "title": "DSH tool authoring contract",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/687f282e8625c6b8d11ff58211a90524be2e4317/docs/cookbook/adding-a-tool.md",
+      "date": "Source checked 2026-10-22"
+    },
+    {
+      "title": "DSH tools runtime",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/687f282e8625c6b8d11ff58211a90524be2e4317/packages/core/tools/src/index.ts",
+      "date": "Source checked 2026-10-22"
+    }
+  ],
+  "demoActions": [
+    "Switch language without losing notes",
+    "Save several checkpoints and undo",
+    "Review /handoff set command",
+    "Export a Chinese or English card"
+  ]
+}

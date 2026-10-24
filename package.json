@@ -1,0 +1,46 @@
+{
+  "name": "dsh-handoff-card",
+  "version": "0.2.1",
+  "type": "module",
+  "description": "DSH Handoff Card native plugin for DeepSeek Harness 0.2.1-rc.2",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": "./plugin.mjs",
+  "scripts": {
+    "start": "node cli.mjs serve",
+    "test": "node --test",
+    "setup": "node setup.mjs"
+  },
+  "files": [
+    "plugin.mjs",
+    "setup.mjs",
+    "cli.mjs",
+    "src",
+    "web",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "LAUNCH.md",
+    "manifest.json",
+    "docs",
+    "test",
+    "scripts",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Euphoria2586/dsh-handoff-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Euphoria2586/dsh-handoff-card/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "local-first"
+  ]
+}
