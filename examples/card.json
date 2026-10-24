@@ -1,0 +1,17 @@
+{
+  "goal": "Ship the local cache inspector",
+  "progress": [
+    "Parser and core rules implemented",
+    "18 regression tests passing"
+  ],
+  "next": [
+    "Verify mobile layout",
+    "Prepare a release screenshot"
+  ],
+  "blockers": [
+    "Need a real anonymized fixture"
+  ],
+  "links": [
+    "https://github.com/deepseek-ai/deepseek-harness"
+  ]
+}
